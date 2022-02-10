@@ -2,6 +2,7 @@ package com.fuad.syamsudin;
 
 import java.util.function.Consumer;
 import java.util.function.Function;
+import java.util.function.Predicate;
 
 public class Main {
 
@@ -32,6 +33,11 @@ public class Main {
         Integer length = functionLength.apply(myString);
         System.out.println(length);
 
+
+        Predicate<String> predicate = s -> s.contentEquals("Fikri");
+
+        boolean containFikri = predicate.test(myString);
+        System.out.println(containFikri);
 
 
     }

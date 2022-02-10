@@ -23,5 +23,6 @@
 #### Function
     - Function<Request,Response>
 
-    
+#### Predicate
+    - return boolean
 
