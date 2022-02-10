@@ -26,3 +26,7 @@
 #### Predicate
     - return boolean
 
+#### Supplier
+    - Tidak memerlukan parameter
+    - return result
+

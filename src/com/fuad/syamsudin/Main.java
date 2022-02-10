@@ -3,6 +3,7 @@ package com.fuad.syamsudin;
 import java.util.function.Consumer;
 import java.util.function.Function;
 import java.util.function.Predicate;
+import java.util.function.Supplier;
 
 public class Main {
 
@@ -38,6 +39,10 @@ public class Main {
 
         boolean containFikri = predicate.test(myString);
         System.out.println(containFikri);
+
+
+        Supplier<String> supplier = () -> "ahahahah ahahha";
+        System.out.println(supplier.get());
 
 
     }
