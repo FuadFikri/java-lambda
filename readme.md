@@ -30,3 +30,9 @@
     - Tidak memerlukan parameter
     - return result
 
+### Lambda sebagai Lazy parameter
+    - lazy parameter adalah parameter tersebut hanya dieksekusi ketika di akses
+
+
+    
+
