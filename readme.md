@@ -20,6 +20,8 @@
     - accept : This method accepts one value and performs the operation on the given argument
     - andThen : menerima parameter operation setelah menjalankan consumer 
 
+#### Function
+    - Function<Request,Response>
 
     
 

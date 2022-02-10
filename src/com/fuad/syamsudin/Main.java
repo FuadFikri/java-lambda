@@ -1,6 +1,7 @@
 package com.fuad.syamsudin;
 
 import java.util.function.Consumer;
+import java.util.function.Function;
 
 public class Main {
 
@@ -24,5 +25,16 @@ public class Main {
 
         consumer1.andThen(consumer2).accept("isna");
 
+
+        String myString = "Halo halo halo";
+
+
+        Integer length = functionLength.apply(myString);
+        System.out.println(length);
+
+
+
     }
+
+     static Function<String, Integer> functionLength = s -> s.length();
 }
